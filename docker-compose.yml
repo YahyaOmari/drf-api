@@ -14,4 +14,5 @@ services:
       # I want to map the port inside the container 8000 to the port outside the container 8000 ==>
       # will allow me to access the srvice from the outside the container
     ports:
+      
       - "8000:8000"
